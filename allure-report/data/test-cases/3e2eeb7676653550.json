@@ -1,0 +1,48 @@
+{
+  "uid" : "3e2eeb7676653550",
+  "name" : "Restore password",
+  "fullName" : "Restore password",
+  "historyId" : "Chrome tests\\admin.login.spec.ts Restore password",
+  "time" : {
+    "start" : 1652867034205,
+    "stop" : 1652867036128,
+    "duration" : 1923
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e2eeb7676653550.json",
+  "parameterValues" : [ ]
+}

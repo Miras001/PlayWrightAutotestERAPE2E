@@ -1,0 +1,78 @@
+{
+  "uid" : "29648fc9d01fb3ec",
+  "name" : "Check Camera by IP",
+  "fullName" : "Check Camera by IP",
+  "historyId" : "Chrome tests\\client.camera.spec.ts Check Camera by IP",
+  "time" : {
+    "start" : 1652867387768,
+    "stop" : 1652867427996,
+    "duration" : 40228
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 40000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 40000ms exceeded.",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c50fb8d3192c99e",
+      "name" : "screenshot",
+      "source" : "6c50fb8d3192c99e.png",
+      "type" : "image/png",
+      "size" : 336456
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.camera.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "74f32a87624399dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866758597,
+        "stop" : 1652866763109,
+        "duration" : 4512
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "29648fc9d01fb3ec.json",
+  "parameterValues" : [ ]
+}

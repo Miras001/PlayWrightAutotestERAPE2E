@@ -1,0 +1,78 @@
+{
+  "uid" : "a36f42f7e0bd6b15",
+  "name" : "Check Object by bin",
+  "fullName" : "Check Object by bin",
+  "historyId" : "Chrome tests\\client.camera.spec.ts Check Object by bin",
+  "time" : {
+    "start" : 1652867306120,
+    "stop" : 1652867346365,
+    "duration" : 40245
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 40000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 40000ms exceeded.",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a26387396e0b5f4",
+      "name" : "screenshot",
+      "source" : "1a26387396e0b5f4.png",
+      "type" : "image/png",
+      "size" : 336456
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.camera.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "980a9256482422ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866749467,
+        "stop" : 1652866754469,
+        "duration" : 5002
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a36f42f7e0bd6b15.json",
+  "parameterValues" : [ ]
+}

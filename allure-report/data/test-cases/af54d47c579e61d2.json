@@ -1,0 +1,70 @@
+{
+  "uid" : "af54d47c579e61d2",
+  "name" : "Email without domain",
+  "fullName" : "Email without domain",
+  "historyId" : "Chrome tests\\client.login.spec.ts Email without domain",
+  "time" : {
+    "start" : 1652867612475,
+    "stop" : 1652867652703,
+    "duration" : 40228
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 40000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 40000ms exceeded.",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37f07e43e68b700d",
+      "name" : "screenshot",
+      "source" : "37f07e43e68b700d.png",
+      "type" : "image/png",
+      "size" : 338159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "af54d47c579e61d2.json",
+  "parameterValues" : [ ]
+}

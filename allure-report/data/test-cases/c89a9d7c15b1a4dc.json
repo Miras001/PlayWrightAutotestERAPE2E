@@ -1,0 +1,78 @@
+{
+  "uid" : "c89a9d7c15b1a4dc",
+  "name" : "Click FullScreen",
+  "fullName" : "Click FullScreen",
+  "historyId" : "Chrome tests\\client.camera.spec.ts Click FullScreen",
+  "time" : {
+    "start" : 1652867004262,
+    "stop" : 1652867044513,
+    "duration" : 40251
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 40000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 40000ms exceeded.",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2330b7ad4f780595",
+      "name" : "screenshot",
+      "source" : "2330b7ad4f780595.png",
+      "type" : "image/png",
+      "size" : 336456
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.camera.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "291901d9769756b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866695399,
+        "stop" : 1652866699851,
+        "duration" : 4452
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c89a9d7c15b1a4dc.json",
+  "parameterValues" : [ ]
+}

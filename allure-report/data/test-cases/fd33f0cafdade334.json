@@ -1,0 +1,48 @@
+{
+  "uid" : "fd33f0cafdade334",
+  "name" : "Blocked User",
+  "fullName" : "Blocked User",
+  "historyId" : "Chrome tests\\admin.login.spec.ts Blocked User",
+  "time" : {
+    "start" : 1652867004007,
+    "stop" : 1652867006269,
+    "duration" : 2262
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd33f0cafdade334.json",
+  "parameterValues" : [ ]
+}

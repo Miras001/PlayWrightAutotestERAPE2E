@@ -1,0 +1,48 @@
+{
+  "uid" : "375f8b1344181146",
+  "name" : "Open create parent organization",
+  "fullName" : "Open create parent organization",
+  "historyId" : "Chrome tests\\admin.organization.spec.ts Open create parent organization",
+  "time" : {
+    "start" : 1652866995381,
+    "stop" : 1652866998838,
+    "duration" : 3457
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.organization.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "375f8b1344181146.json",
+  "parameterValues" : [ ]
+}

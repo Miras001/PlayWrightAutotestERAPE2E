@@ -1,0 +1,1845 @@
+{
+  "Chrome tests\\admin.organization.spec.ts Create ip,port,password,login camera" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0b62d69555e7490",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867422155,
+        "stop" : 1652867462318,
+        "duration" : 40163
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Restore password email without domain" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e01572d273713a05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867037842,
+        "stop" : 1652867039654,
+        "duration" : 1812
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Saved Grid" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf759b61fced51e1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867102040,
+        "stop" : 1652867102040,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Camera by name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b772837cc057b568",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867346968,
+        "stop" : 1652867387200,
+        "duration" : 40232
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts User can login correct data" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d2ad0afa90a808",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://client.qazvms.local/dashboard\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+      "time" : {
+        "start" : 1652867410427,
+        "stop" : 1652867417977,
+        "duration" : 7550
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts No value" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de492396be27c806",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867449213,
+        "stop" : 1652867489482,
+        "duration" : 40269
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Restore password email cyrillic" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a070747f018be38",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867709641,
+        "stop" : 1652867709641,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Camera by Filter" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1aee9614b969224",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867287953,
+        "stop" : 1652867328185,
+        "duration" : 40232
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Restore password email number" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b4d07d6070d8f44",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867709641,
+        "stop" : 1652867709641,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create organization name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fa64709ee0d2672",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867055474,
+        "stop" : 1652867095622,
+        "duration" : 40148
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Password special symbols" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c598a13574ad174a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867030433,
+        "stop" : 1652867032301,
+        "duration" : 1868
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create object name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7a0cc72f7d06d4b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867218350,
+        "stop" : 1652867258512,
+        "duration" : 40162
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Delete user" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb08d3451f980f35",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Ваша учетная запись удалена и не может быть использована\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "time" : {
+        "start" : 1652867433723,
+        "stop" : 1652867440773,
+        "duration" : 7050
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Password latin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce07a940d60e4337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867028552,
+        "stop" : 1652867030433,
+        "duration" : 1881
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Blocked User" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7489693d9698f26d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Ваша учетная запись заблокирована и не может быть использована, обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "time" : {
+        "start" : 1652867441321,
+        "stop" : 1652867448651,
+        "duration" : 7330
+      }
+    } ]
+  },
+  "Chrome tests\\client.archive.spec.ts User can login correct data" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ee22c383c03a95f",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://client.qazvms.local/dashboard\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+      "time" : {
+        "start" : 1652866995373,
+        "stop" : 1652867003635,
+        "duration" : 8262
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts User can login incorrect email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9750b931136b5d5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867418547,
+        "stop" : 1652867420805,
+        "duration" : 2258
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Restore password email without domain" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28267292cf8a4d24",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867709641,
+        "stop" : 1652867709641,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Camera Icon" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51a52b2133c32aa9",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \".vms-camera-icon\"\n",
+      "time" : {
+        "start" : 1652867045145,
+        "stop" : 1652867052542,
+        "duration" : 7397
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create name camera" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e52cc5f82aed982e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867340640,
+        "stop" : 1652867380776,
+        "duration" : 40136
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Object by Name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "181f6164faee9b3f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867124705,
+        "stop" : 1652867164945,
+        "duration" : 40240
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Camera by Name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "806311e6f2da2bab",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867206360,
+        "stop" : 1652867246595,
+        "duration" : 40235
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create object groupe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c0f5c1d5dbe3ee",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867259169,
+        "stop" : 1652867299313,
+        "duration" : 40144
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Email without domain" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af54d47c579e61d2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867612475,
+        "stop" : 1652867652703,
+        "duration" : 40228
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts User can login correct data" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "609f2f6c43105166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866995379,
+        "stop" : 1652866998436,
+        "duration" : 3057
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Layers Button on GIS Page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdc8574d1091541b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867328770,
+        "stop" : 1652867369031,
+        "duration" : 40261
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Password special symbols" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe99078a89e3613d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "time" : {
+        "start" : 1652867677213,
+        "stop" : 1652867684830,
+        "duration" : 7617
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Not registered user" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7db42118b811e29f",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n-   \"Пользователь не найден\",\n+   \"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\",\n  ]\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n  -   selector resolved to 1 element\n",
+      "time" : {
+        "start" : 1652867008304,
+        "stop" : 1652867015313,
+        "duration" : 7009
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Restore password email cyrillic" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59203eecf314d343",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867039654,
+        "stop" : 1652867041520,
+        "duration" : 1866
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Latin email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13e7bffc99a07aef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867017904,
+        "stop" : 1652867019640,
+        "duration" : 1736
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create server camera" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34ec78e9cd736b2c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867462923,
+        "stop" : 1652867503056,
+        "duration" : 40133
+      }
+    } ]
+  },
+  "Chrome tests\\client.profile.spec.ts Check User Profile" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b85afe780eaf41af",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867428551,
+        "stop" : 1652867468796,
+        "duration" : 40245
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create organization bin11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d0ecc515b709d4b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867096193,
+        "stop" : 1652867136354,
+        "duration" : 40161
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Change Camera Optimal Grid" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a033df2828f8aa34",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867102040,
+        "stop" : 1652867142309,
+        "duration" : 40269
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create organization" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "480ec447adc6b2e1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867014655,
+        "stop" : 1652867054850,
+        "duration" : 40195
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create parent organization bin13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e91bb796364ccbb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867012312,
+        "stop" : 1652867014654,
+        "duration" : 2342
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create organization bin13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d031cd1f538ee9e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867136915,
+        "stop" : 1652867177086,
+        "duration" : 40171
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create parent organization bin11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41cedae026ab2351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867009937,
+        "stop" : 1652867012312,
+        "duration" : 2375
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Objct by BIN" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bff01171950b31f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867165510,
+        "stop" : 1652867165510,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Password cyrillic" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5a0f19ce37f62ff",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "time" : {
+        "start" : 1652867661161,
+        "stop" : 1652867668599,
+        "duration" : 7438
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Create Grid" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbf4afe2ea93c92c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867061237,
+        "stop" : 1652867101478,
+        "duration" : 40241
+      }
+    } ]
+  },
+  "Chrome tests\\client.profile.spec.ts Check User rights and roles" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12aa4230217d7aa8",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867510154,
+        "stop" : 1652867550396,
+        "duration" : 40242
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Password cyrillic" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64387628642eec56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867026599,
+        "stop" : 1652867028552,
+        "duration" : 1953
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Open create parent organization" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "375f8b1344181146",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866995381,
+        "stop" : 1652866998838,
+        "duration" : 3457
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Email available characters" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "369bf5750c500ef5",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://admin.qazvms.local/login\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+      "time" : {
+        "start" : 1652867653256,
+        "stop" : 1652867660602,
+        "duration" : 7346
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Delete camera" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "198918a319242a4e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867503616,
+        "stop" : 1652867543737,
+        "duration" : 40121
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts No value password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b26360976e53c24",
+      "status" : "skipped",
+      "statusDetails" : "page.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"button:has-text(\"Войти в систему\")\"\n  selector resolved to visible <button disabled tabindex=\"-1\" type=\"submit\" class=\"MuiB…>…</button>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    element is not enabled - waiting...\n============================================================",
+      "time" : {
+        "start" : 1652867685382,
+        "stop" : 1652867709640,
+        "duration" : 24258
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts No value" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45658111ea5f0cae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867002285,
+        "stop" : 1652867004007,
+        "duration" : 1722
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Restore password1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5cfdd232b56dce5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867431042,
+        "stop" : 1652867433722,
+        "duration" : 2680
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create model camera" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb4feda3c64f3e27",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867381378,
+        "stop" : 1652867421529,
+        "duration" : 40151
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Object by bin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a36f42f7e0bd6b15",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867306120,
+        "stop" : 1652867346365,
+        "duration" : 40245
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts User can login incorrect login and password" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "beeced8cc71a5ad3",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n-   \"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\",\n+   \"Введите правильный e-mail\",\n  ]\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-colorError\"\n  -   selector resolved to 1 element\n",
+      "time" : {
+        "start" : 1652867423032,
+        "stop" : 1652867430463,
+        "duration" : 7431
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Camera by IP" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc0b0e5a78026c7f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867165511,
+        "stop" : 1652867205793,
+        "duration" : 40282
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Special symbols email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "593dfac5405d5c67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867019640,
+        "stop" : 1652867021473,
+        "duration" : 1833
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Object by Name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e92958222e9b0cd2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867265298,
+        "stop" : 1652867305556,
+        "duration" : 40258
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts User can login incorrect email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cf6f1e5de4acdb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866998437,
+        "stop" : 1652867000405,
+        "duration" : 1968
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Restore password no value email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdb4e3df4e00f4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867036127,
+        "stop" : 1652867037841,
+        "duration" : 1714
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create parent organization name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1758a1f074fe8d1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867007126,
+        "stop" : 1652867009936,
+        "duration" : 2810
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check expand tree" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e4944ac00a2898f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867043128,
+        "stop" : 1652867083365,
+        "duration" : 40237
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Symbols email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee61f809f78478a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867021473,
+        "stop" : 1652867023140,
+        "duration" : 1667
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Organization by bin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71b58e704196f024",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867224500,
+        "stop" : 1652867264729,
+        "duration" : 40229
+      }
+    } ]
+  },
+  "Chrome tests\\client.profile.spec.ts Check User Password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "871a3b8ec653805f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867469362,
+        "stop" : 1652867509596,
+        "duration" : 40234
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Delete object" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c15bc9127adf384",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867544299,
+        "stop" : 1652867584468,
+        "duration" : 40169
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Click FullScreen" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c89a9d7c15b1a4dc",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867004262,
+        "stop" : 1652867044513,
+        "duration" : 40251
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create parent organization" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc8fed3a6d12dac",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n-   \"Данные сохранены\",\n+   \"Организация с таким наименование существует\",\n  ]\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".notification-message\"\n  -   selector resolved to 0 elements\n  -   selector resolved to 1 element\n",
+      "time" : {
+        "start" : 1652866998839,
+        "stop" : 1652867006488,
+        "duration" : 7649
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Remote user" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7e773e05dc913a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867006269,
+        "stop" : 1652867008303,
+        "duration" : 2034
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Email without domain" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f08d69e1569591c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867023140,
+        "stop" : 1652867024783,
+        "duration" : 1643
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts User can login incorrect password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fcaeed2e757c8b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867000405,
+        "stop" : 1652867002285,
+        "duration" : 1880
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Restore password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e2eeb7676653550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867034205,
+        "stop" : 1652867036128,
+        "duration" : 1923
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Special symbols email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87db9749fc354550",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867530870,
+        "stop" : 1652867571109,
+        "duration" : 40239
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Email available characters" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c3a098d00e322fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867024783,
+        "stop" : 1652867026599,
+        "duration" : 1816
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts User can login incorrect password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ff92f7ba816e7fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867420804,
+        "stop" : 1652867423032,
+        "duration" : 2228
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Click Clear Search Field Button" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f84a7e54cffaa2b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867247156,
+        "stop" : 1652867287389,
+        "duration" : 40233
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Restore password email number" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82ddca87f6514008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867041519,
+        "stop" : 1652867043116,
+        "duration" : 1597
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Cyrillic email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "509a14d81ace0315",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867490042,
+        "stop" : 1652867530307,
+        "duration" : 40265
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Organization by Name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15a625d0e67824e1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867083920,
+        "stop" : 1652867124142,
+        "duration" : 40222
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Symbols email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "222231eadfea284a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867571666,
+        "stop" : 1652867611912,
+        "duration" : 40246
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create camera" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4597bb1c006ae985",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867299882,
+        "stop" : 1652867340031,
+        "duration" : 40149
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts No value password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9648a4f2a30fe317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867032301,
+        "stop" : 1652867034205,
+        "duration" : 1904
+      }
+    } ]
+  },
+  "Chrome tests\\client.profile.spec.ts Check User Activity" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8ca4a45245b2cdf",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867550952,
+        "stop" : 1652867550952,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Delete organization" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fd976d1932eda97",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867585041,
+        "stop" : 1652867625180,
+        "duration" : 40139
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Camera by IP" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29648fc9d01fb3ec",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867387768,
+        "stop" : 1652867427996,
+        "duration" : 40228
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Blocked User" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd33f0cafdade334",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867004007,
+        "stop" : 1652867006269,
+        "duration" : 2262
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Password latin" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e90fba9e15cf7d5e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "time" : {
+        "start" : 1652867669155,
+        "stop" : 1652867676667,
+        "duration" : 7512
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Delete parent organization" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90c800a7ac18b396",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867625744,
+        "stop" : 1652867665882,
+        "duration" : 40138
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check City List on GIS Page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96c944eab9daf166",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867369598,
+        "stop" : 1652867409843,
+        "duration" : 40245
+      }
+    } ]
+  },
+  "Chrome tests\\client.login.spec.ts Restore password no value email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df40878f780aad4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867709641,
+        "stop" : 1652867709641,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\admin.organization.spec.ts Create object" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99518520061b1ff2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867177650,
+        "stop" : 1652867217783,
+        "duration" : 40133
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check VMS Main Icon" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0cac0c6f8109078",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \".vms-main-icon\"\n",
+      "time" : {
+        "start" : 1652867053112,
+        "stop" : 1652867060668,
+        "duration" : 7556
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Delete Grid" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9440ce6b2eb6f04",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867102039,
+        "stop" : 1652867102039,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Chrome tests\\admin.login.spec.ts Cyrillic email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97db24ed91514f2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652867015925,
+        "stop" : 1652867017904,
+        "duration" : 1979
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Organization by Name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7da0db1f10bb4ad5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867183683,
+        "stop" : 1652867223936,
+        "duration" : 40253
+      }
+    } ]
+  },
+  "Chrome tests\\client.camera.spec.ts Check Change Camera Current Grid" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3c27ff1432812ad",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 40000ms exceeded.",
+      "time" : {
+        "start" : 1652867142880,
+        "stop" : 1652867183120,
+        "duration" : 40240
+      }
+    } ]
+  },
+  "Chrome tests\\client.gis.spec.ts Check Search Organization by BIN" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7117f339bad42025",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652867124704,
+        "stop" : 1652867124704,
+        "duration" : 0
+      }
+    } ]
+  }
+}

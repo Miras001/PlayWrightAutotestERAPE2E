@@ -1,0 +1,80 @@
+{
+  "uid" : "f0cac0c6f8109078",
+  "name" : "Check VMS Main Icon",
+  "fullName" : "Check VMS Main Icon",
+  "historyId" : "Chrome tests\\client.camera.spec.ts Check VMS Main Icon",
+  "time" : {
+    "start" : 1652867053112,
+    "stop" : 1652867060668,
+    "duration" : 7556
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \".vms-main-icon\"\n",
+  "statusTrace" : "\n    at C:\\Users\\Myskill.PC\\VMSAutotest\\tests\\client.camera.spec.ts:38:29",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \".vms-main-icon\"\n",
+    "statusTrace" : "\n    at C:\\Users\\Myskill.PC\\VMSAutotest\\tests\\client.camera.spec.ts:38:29",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5107ee496b800422",
+      "name" : "screenshot",
+      "source" : "5107ee496b800422.png",
+      "type" : "image/png",
+      "size" : 336456
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.camera.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "28df14068d2153",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652866703922,
+        "stop" : 1652866709230,
+        "duration" : 5308
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f0cac0c6f8109078.json",
+  "parameterValues" : [ ]
+}

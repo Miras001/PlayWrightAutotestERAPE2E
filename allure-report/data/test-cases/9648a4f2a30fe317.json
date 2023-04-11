@@ -1,0 +1,48 @@
+{
+  "uid" : "9648a4f2a30fe317",
+  "name" : "No value password",
+  "fullName" : "No value password",
+  "historyId" : "Chrome tests\\admin.login.spec.ts No value password",
+  "time" : {
+    "start" : 1652867032301,
+    "stop" : 1652867034205,
+    "duration" : 1904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9648a4f2a30fe317.json",
+  "parameterValues" : [ ]
+}

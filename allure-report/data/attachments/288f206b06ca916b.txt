@@ -1,0 +1,1 @@
+WebSocket opened: ws://qazvms-srv-1.qazvms.local:8000/live/25/channel/0/mse?uuid=25&channel=0>

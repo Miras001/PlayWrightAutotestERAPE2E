@@ -1,0 +1,941 @@
+[ {
+  "uid" : "96c944eab9daf166",
+  "name" : "Check City List on GIS Page",
+  "time" : {
+    "start" : 1652867369598,
+    "stop" : 1652867409843,
+    "duration" : 40245
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "99518520061b1ff2",
+  "name" : "Create object",
+  "time" : {
+    "start" : 1652867177650,
+    "stop" : 1652867217783,
+    "duration" : 40133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "198918a319242a4e",
+  "name" : "Delete camera",
+  "time" : {
+    "start" : 1652867503616,
+    "stop" : 1652867543737,
+    "duration" : 40121
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "af54d47c579e61d2",
+  "name" : "Email without domain",
+  "time" : {
+    "start" : 1652867612475,
+    "stop" : 1652867652703,
+    "duration" : 40228
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b1aee9614b969224",
+  "name" : "Check Search Camera by Filter",
+  "time" : {
+    "start" : 1652867287953,
+    "stop" : 1652867328185,
+    "duration" : 40232
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fe99078a89e3613d",
+  "name" : "Password special symbols",
+  "time" : {
+    "start" : 1652867677213,
+    "stop" : 1652867684830,
+    "duration" : 7617
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e92958222e9b0cd2",
+  "name" : "Check Object by Name",
+  "time" : {
+    "start" : 1652867265298,
+    "stop" : 1652867305556,
+    "duration" : 40258
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "41cedae026ab2351",
+  "name" : "Create parent organization bin11",
+  "time" : {
+    "start" : 1652867009937,
+    "stop" : 1652867012312,
+    "duration" : 2375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34ec78e9cd736b2c",
+  "name" : "Create server camera",
+  "time" : {
+    "start" : 1652867462923,
+    "stop" : 1652867503056,
+    "duration" : 40133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9c15bc9127adf384",
+  "name" : "Delete object",
+  "time" : {
+    "start" : 1652867544299,
+    "stop" : 1652867584468,
+    "duration" : 40169
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9f08d69e1569591c",
+  "name" : "Email without domain",
+  "time" : {
+    "start" : 1652867023140,
+    "stop" : 1652867024783,
+    "duration" : 1643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fa64709ee0d2672",
+  "name" : "Create organization name",
+  "time" : {
+    "start" : 1652867055474,
+    "stop" : 1652867095622,
+    "duration" : 40148
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e2eeb7676653550",
+  "name" : "Restore password",
+  "time" : {
+    "start" : 1652867034205,
+    "stop" : 1652867036128,
+    "duration" : 1923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8ca4a45245b2cdf",
+  "name" : "Check User Activity",
+  "time" : {
+    "start" : 1652867550952,
+    "stop" : 1652867550952,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4ee22c383c03a95f",
+  "name" : "User can login correct data",
+  "time" : {
+    "start" : 1652866995373,
+    "stop" : 1652867003635,
+    "duration" : 8262
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0cac0c6f8109078",
+  "name" : "Check VMS Main Icon",
+  "time" : {
+    "start" : 1652867053112,
+    "stop" : 1652867060668,
+    "duration" : 7556
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "871a3b8ec653805f",
+  "name" : "Check User Password",
+  "time" : {
+    "start" : 1652867469362,
+    "stop" : 1652867509596,
+    "duration" : 40234
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8fd976d1932eda97",
+  "name" : "Delete organization",
+  "time" : {
+    "start" : 1652867585041,
+    "stop" : 1652867625180,
+    "duration" : 40139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d5a0f19ce37f62ff",
+  "name" : "Password cyrillic",
+  "time" : {
+    "start" : 1652867661161,
+    "stop" : 1652867668599,
+    "duration" : 7438
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bff01171950b31f",
+  "name" : "Check Search Objct by BIN",
+  "time" : {
+    "start" : 1652867165510,
+    "stop" : 1652867165510,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "15a625d0e67824e1",
+  "name" : "Check Search Organization by Name",
+  "time" : {
+    "start" : 1652867083920,
+    "stop" : 1652867124142,
+    "duration" : 40222
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e01572d273713a05",
+  "name" : "Restore password email without domain",
+  "time" : {
+    "start" : 1652867037842,
+    "stop" : 1652867039654,
+    "duration" : 1812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89a9d7c15b1a4dc",
+  "name" : "Click FullScreen",
+  "time" : {
+    "start" : 1652867004262,
+    "stop" : 1652867044513,
+    "duration" : 40251
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59203eecf314d343",
+  "name" : "Restore password email cyrillic",
+  "time" : {
+    "start" : 1652867039654,
+    "stop" : 1652867041520,
+    "duration" : 1866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb08d3451f980f35",
+  "name" : "Delete user",
+  "time" : {
+    "start" : 1652867433723,
+    "stop" : 1652867440773,
+    "duration" : 7050
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9750b931136b5d5d",
+  "name" : "User can login incorrect email",
+  "time" : {
+    "start" : 1652867418547,
+    "stop" : 1652867420805,
+    "duration" : 2258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "222231eadfea284a",
+  "name" : "Symbols email",
+  "time" : {
+    "start" : 1652867571666,
+    "stop" : 1652867611912,
+    "duration" : 40246
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6f84a7e54cffaa2b",
+  "name" : "Check Click Clear Search Field Button",
+  "time" : {
+    "start" : 1652867247156,
+    "stop" : 1652867287389,
+    "duration" : 40233
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fdc8574d1091541b",
+  "name" : "Check Layers Button on GIS Page",
+  "time" : {
+    "start" : 1652867328770,
+    "stop" : 1652867369031,
+    "duration" : 40261
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "375f8b1344181146",
+  "name" : "Open create parent organization",
+  "time" : {
+    "start" : 1652866995381,
+    "stop" : 1652866998838,
+    "duration" : 3457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee61f809f78478a4",
+  "name" : "Symbols email",
+  "time" : {
+    "start" : 1652867021473,
+    "stop" : 1652867023140,
+    "duration" : 1667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29648fc9d01fb3ec",
+  "name" : "Check Camera by IP",
+  "time" : {
+    "start" : 1652867387768,
+    "stop" : 1652867427996,
+    "duration" : 40228
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fbf4afe2ea93c92c",
+  "name" : "Check Create Grid",
+  "time" : {
+    "start" : 1652867061237,
+    "stop" : 1652867101478,
+    "duration" : 40241
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d031cd1f538ee9e",
+  "name" : "Create organization bin13",
+  "time" : {
+    "start" : 1652867136915,
+    "stop" : 1652867177086,
+    "duration" : 40171
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a033df2828f8aa34",
+  "name" : "Check Change Camera Optimal Grid",
+  "time" : {
+    "start" : 1652867102040,
+    "stop" : 1652867142309,
+    "duration" : 40269
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "51a52b2133c32aa9",
+  "name" : "Check Camera Icon",
+  "time" : {
+    "start" : 1652867045145,
+    "stop" : 1652867052542,
+    "duration" : 7397
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "87db9749fc354550",
+  "name" : "Special symbols email",
+  "time" : {
+    "start" : 1652867530870,
+    "stop" : 1652867571109,
+    "duration" : 40239
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7489693d9698f26d",
+  "name" : "Blocked User",
+  "time" : {
+    "start" : 1652867441321,
+    "stop" : 1652867448651,
+    "duration" : 7330
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1758a1f074fe8d1b",
+  "name" : "Create parent organization name",
+  "time" : {
+    "start" : 1652867007126,
+    "stop" : 1652867009936,
+    "duration" : 2810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e90fba9e15cf7d5e",
+  "name" : "Password latin",
+  "time" : {
+    "start" : 1652867669155,
+    "stop" : 1652867676667,
+    "duration" : 7512
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "480ec447adc6b2e1",
+  "name" : "Create organization",
+  "time" : {
+    "start" : 1652867014655,
+    "stop" : 1652867054850,
+    "duration" : 40195
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "df40878f780aad4a",
+  "name" : "Restore password no value email",
+  "time" : {
+    "start" : 1652867709641,
+    "stop" : 1652867709641,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "90c800a7ac18b396",
+  "name" : "Delete parent organization",
+  "time" : {
+    "start" : 1652867625744,
+    "stop" : 1652867665882,
+    "duration" : 40138
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d0ecc515b709d4b",
+  "name" : "Create organization bin11",
+  "time" : {
+    "start" : 1652867096193,
+    "stop" : 1652867136354,
+    "duration" : 40161
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cb4feda3c64f3e27",
+  "name" : "Create model camera",
+  "time" : {
+    "start" : 1652867381378,
+    "stop" : 1652867421529,
+    "duration" : 40151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7da0db1f10bb4ad5",
+  "name" : "Check Organization by Name",
+  "time" : {
+    "start" : 1652867183683,
+    "stop" : 1652867223936,
+    "duration" : 40253
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7117f339bad42025",
+  "name" : "Check Search Organization by BIN",
+  "time" : {
+    "start" : 1652867124704,
+    "stop" : 1652867124704,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1b4d07d6070d8f44",
+  "name" : "Restore password email number",
+  "time" : {
+    "start" : 1652867709641,
+    "stop" : 1652867709641,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7fcaeed2e757c8b6",
+  "name" : "User can login incorrect password",
+  "time" : {
+    "start" : 1652867000405,
+    "stop" : 1652867002285,
+    "duration" : 1880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "181f6164faee9b3f",
+  "name" : "Check Search Object by Name",
+  "time" : {
+    "start" : 1652867124705,
+    "stop" : 1652867164945,
+    "duration" : 40240
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2ad0afa90a808",
+  "name" : "User can login correct data",
+  "time" : {
+    "start" : 1652867410427,
+    "stop" : 1652867417977,
+    "duration" : 7550
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd33f0cafdade334",
+  "name" : "Blocked User",
+  "time" : {
+    "start" : 1652867004007,
+    "stop" : 1652867006269,
+    "duration" : 2262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e52cc5f82aed982e",
+  "name" : "Create name camera",
+  "time" : {
+    "start" : 1652867340640,
+    "stop" : 1652867380776,
+    "duration" : 40136
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82ddca87f6514008",
+  "name" : "Restore password email number",
+  "time" : {
+    "start" : 1652867041519,
+    "stop" : 1652867043116,
+    "duration" : 1597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c598a13574ad174a",
+  "name" : "Password special symbols",
+  "time" : {
+    "start" : 1652867030433,
+    "stop" : 1652867032301,
+    "duration" : 1868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de492396be27c806",
+  "name" : "No value",
+  "time" : {
+    "start" : 1652867449213,
+    "stop" : 1652867489482,
+    "duration" : 40269
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45658111ea5f0cae",
+  "name" : "No value",
+  "time" : {
+    "start" : 1652867002285,
+    "stop" : 1652867004007,
+    "duration" : 1722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0b62d69555e7490",
+  "name" : "Create ip,port,password,login camera",
+  "time" : {
+    "start" : 1652867422155,
+    "stop" : 1652867462318,
+    "duration" : 40163
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9648a4f2a30fe317",
+  "name" : "No value password",
+  "time" : {
+    "start" : 1652867032301,
+    "stop" : 1652867034205,
+    "duration" : 1904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97db24ed91514f2d",
+  "name" : "Cyrillic email",
+  "time" : {
+    "start" : 1652867015925,
+    "stop" : 1652867017904,
+    "duration" : 1979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "609f2f6c43105166",
+  "name" : "User can login correct data",
+  "time" : {
+    "start" : 1652866995379,
+    "stop" : 1652866998436,
+    "duration" : 3057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e4944ac00a2898f",
+  "name" : "Check expand tree",
+  "time" : {
+    "start" : 1652867043128,
+    "stop" : 1652867083365,
+    "duration" : 40237
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "806311e6f2da2bab",
+  "name" : "Check Search Camera by Name",
+  "time" : {
+    "start" : 1652867206360,
+    "stop" : 1652867246595,
+    "duration" : 40235
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d5cfdd232b56dce5",
+  "name" : "Restore password1",
+  "time" : {
+    "start" : 1652867431042,
+    "stop" : 1652867433722,
+    "duration" : 2680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c3a098d00e322fe",
+  "name" : "Email available characters",
+  "time" : {
+    "start" : 1652867024783,
+    "stop" : 1652867026599,
+    "duration" : 1816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb4e3df4e00f4d8",
+  "name" : "Restore password no value email",
+  "time" : {
+    "start" : 1652867036127,
+    "stop" : 1652867037841,
+    "duration" : 1714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf759b61fced51e1",
+  "name" : "Check Saved Grid",
+  "time" : {
+    "start" : 1652867102040,
+    "stop" : 1652867102040,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ce07a940d60e4337",
+  "name" : "Password latin",
+  "time" : {
+    "start" : 1652867028552,
+    "stop" : 1652867030433,
+    "duration" : 1881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a070747f018be38",
+  "name" : "Restore password email cyrillic",
+  "time" : {
+    "start" : 1652867709641,
+    "stop" : 1652867709641,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "509a14d81ace0315",
+  "name" : "Cyrillic email",
+  "time" : {
+    "start" : 1652867490042,
+    "stop" : 1652867530307,
+    "duration" : 40265
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bc0b0e5a78026c7f",
+  "name" : "Check Search Camera by IP",
+  "time" : {
+    "start" : 1652867165511,
+    "stop" : 1652867205793,
+    "duration" : 40282
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6c0f5c1d5dbe3ee",
+  "name" : "Create object groupe",
+  "time" : {
+    "start" : 1652867259169,
+    "stop" : 1652867299313,
+    "duration" : 40144
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "28267292cf8a4d24",
+  "name" : "Restore password email without domain",
+  "time" : {
+    "start" : 1652867709641,
+    "stop" : 1652867709641,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2b26360976e53c24",
+  "name" : "No value password",
+  "time" : {
+    "start" : 1652867685382,
+    "stop" : 1652867709640,
+    "duration" : 24258
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "593dfac5405d5c67",
+  "name" : "Special symbols email",
+  "time" : {
+    "start" : 1652867019640,
+    "stop" : 1652867021473,
+    "duration" : 1833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b772837cc057b568",
+  "name" : "Check Camera by name",
+  "time" : {
+    "start" : 1652867346968,
+    "stop" : 1652867387200,
+    "duration" : 40232
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9cf6f1e5de4acdb0",
+  "name" : "User can login incorrect email",
+  "time" : {
+    "start" : 1652866998437,
+    "stop" : 1652867000405,
+    "duration" : 1968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71b58e704196f024",
+  "name" : "Check Organization by bin",
+  "time" : {
+    "start" : 1652867224500,
+    "stop" : 1652867264729,
+    "duration" : 40229
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "369bf5750c500ef5",
+  "name" : "Email available characters",
+  "time" : {
+    "start" : 1652867653256,
+    "stop" : 1652867660602,
+    "duration" : 7346
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b85afe780eaf41af",
+  "name" : "Check User Profile",
+  "time" : {
+    "start" : 1652867428551,
+    "stop" : 1652867468796,
+    "duration" : 40245
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9440ce6b2eb6f04",
+  "name" : "Check Delete Grid",
+  "time" : {
+    "start" : 1652867102039,
+    "stop" : 1652867102039,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "64387628642eec56",
+  "name" : "Password cyrillic",
+  "time" : {
+    "start" : 1652867026599,
+    "stop" : 1652867028552,
+    "duration" : 1953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e91bb796364ccbb3",
+  "name" : "Create parent organization bin13",
+  "time" : {
+    "start" : 1652867012312,
+    "stop" : 1652867014654,
+    "duration" : 2342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a36f42f7e0bd6b15",
+  "name" : "Check Object by bin",
+  "time" : {
+    "start" : 1652867306120,
+    "stop" : 1652867346365,
+    "duration" : 40245
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4597bb1c006ae985",
+  "name" : "Create camera",
+  "time" : {
+    "start" : 1652867299882,
+    "stop" : 1652867340031,
+    "duration" : 40149
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "13e7bffc99a07aef",
+  "name" : "Latin email",
+  "time" : {
+    "start" : 1652867017904,
+    "stop" : 1652867019640,
+    "duration" : 1736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db42118b811e29f",
+  "name" : "Not registered user",
+  "time" : {
+    "start" : 1652867008304,
+    "stop" : 1652867015313,
+    "duration" : 7009
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "beeced8cc71a5ad3",
+  "name" : "User can login incorrect login and password",
+  "time" : {
+    "start" : 1652867423032,
+    "stop" : 1652867430463,
+    "duration" : 7431
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc8fed3a6d12dac",
+  "name" : "Create parent organization",
+  "time" : {
+    "start" : 1652866998839,
+    "stop" : 1652867006488,
+    "duration" : 7649
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff92f7ba816e7fa",
+  "name" : "User can login incorrect password",
+  "time" : {
+    "start" : 1652867420804,
+    "stop" : 1652867423032,
+    "duration" : 2228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7a0cc72f7d06d4b",
+  "name" : "Create object name",
+  "time" : {
+    "start" : 1652867218350,
+    "stop" : 1652867258512,
+    "duration" : 40162
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "12aa4230217d7aa8",
+  "name" : "Check User rights and roles",
+  "time" : {
+    "start" : 1652867510154,
+    "stop" : 1652867550396,
+    "duration" : 40242
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e7e773e05dc913a8",
+  "name" : "Remote user",
+  "time" : {
+    "start" : 1652867006269,
+    "stop" : 1652867008303,
+    "duration" : 2034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3c27ff1432812ad",
+  "name" : "Check Change Camera Current Grid",
+  "time" : {
+    "start" : 1652867142880,
+    "stop" : 1652867183120,
+    "duration" : 40240
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,48 @@
+{
+  "uid" : "5c3a098d00e322fe",
+  "name" : "Email available characters",
+  "fullName" : "Email available characters",
+  "historyId" : "Chrome tests\\admin.login.spec.ts Email available characters",
+  "time" : {
+    "start" : 1652867024783,
+    "stop" : 1652867026599,
+    "duration" : 1816
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c3a098d00e322fe.json",
+  "parameterValues" : [ ]
+}

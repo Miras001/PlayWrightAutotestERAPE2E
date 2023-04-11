@@ -1,0 +1,46 @@
+{
+  "uid" : "6c5c81c256706c2b",
+  "name" : "Check Delete Grid",
+  "fullName" : "Check Delete Grid",
+  "historyId" : "Chrome tests\\client.camera.spec.ts Check Delete Grid",
+  "time" : {
+    "start" : 1652866713972,
+    "stop" : 1652866713972,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.camera.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c5c81c256706c2b.json",
+  "parameterValues" : [ ]
+}

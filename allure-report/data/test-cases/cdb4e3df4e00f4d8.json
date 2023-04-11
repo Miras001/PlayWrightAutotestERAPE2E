@@ -1,0 +1,48 @@
+{
+  "uid" : "cdb4e3df4e00f4d8",
+  "name" : "Restore password no value email",
+  "fullName" : "Restore password no value email",
+  "historyId" : "Chrome tests\\admin.login.spec.ts Restore password no value email",
+  "time" : {
+    "start" : 1652867036127,
+    "stop" : 1652867037841,
+    "duration" : 1714
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdb4e3df4e00f4d8.json",
+  "parameterValues" : [ ]
+}

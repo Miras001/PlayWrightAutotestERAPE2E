@@ -1,0 +1,48 @@
+{
+  "uid" : "7bff01171950b31f",
+  "name" : "Check Search Objct by BIN",
+  "fullName" : "Check Search Objct by BIN",
+  "historyId" : "Chrome tests\\client.gis.spec.ts Check Search Objct by BIN",
+  "time" : {
+    "start" : 1652867165510,
+    "stop" : 1652867165510,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.gis.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bff01171950b31f.json",
+  "parameterValues" : [ ]
+}

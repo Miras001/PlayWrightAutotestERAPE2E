@@ -1,0 +1,48 @@
+{
+  "uid" : "59203eecf314d343",
+  "name" : "Restore password email cyrillic",
+  "fullName" : "Restore password email cyrillic",
+  "historyId" : "Chrome tests\\admin.login.spec.ts Restore password email cyrillic",
+  "time" : {
+    "start" : 1652867039654,
+    "stop" : 1652867041520,
+    "duration" : 1866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59203eecf314d343.json",
+  "parameterValues" : [ ]
+}

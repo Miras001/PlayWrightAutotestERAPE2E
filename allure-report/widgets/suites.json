@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "be3b43cb059a307900f233563156e40a",
+    "name" : "Chrome",
+    "statistic" : {
+      "failed" : 13,
+      "broken" : 43,
+      "skipped" : 10,
+      "passed" : 28,
+      "unknown" : 0,
+      "total" : 94
+    }
+  } ]
+}

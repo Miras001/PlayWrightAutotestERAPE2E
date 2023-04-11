@@ -1,0 +1,6 @@
+{
+  data: {
+    cameras: [ [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m ],
+    gridIdentifier: [32m'grid-6'[39m
+  }
+}

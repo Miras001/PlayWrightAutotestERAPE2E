@@ -1,0 +1,2 @@
+0{"sid":"7s","upgrades":[],"pingInterval":20000,"pingTimeout":60000}
+

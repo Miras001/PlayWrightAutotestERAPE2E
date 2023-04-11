@@ -1,0 +1,72 @@
+{
+  "uid" : "fe99078a89e3613d",
+  "name" : "Password special symbols",
+  "fullName" : "Password special symbols",
+  "historyId" : "Chrome tests\\client.login.spec.ts Password special symbols",
+  "time" : {
+    "start" : 1652867677213,
+    "stop" : 1652867684830,
+    "duration" : 7617
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+  "statusTrace" : "\n    at C:\\Users\\Myskill.PC\\VMSAutotest\\tests\\client.login.spec.ts:146:25",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+    "statusTrace" : "\n    at C:\\Users\\Myskill.PC\\VMSAutotest\\tests\\client.login.spec.ts:146:25",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "698c30f94cde65c9",
+      "name" : "screenshot",
+      "source" : "698c30f94cde65c9.png",
+      "type" : "image/png",
+      "size" : 350801
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe99078a89e3613d.json",
+  "parameterValues" : [ ]
+}

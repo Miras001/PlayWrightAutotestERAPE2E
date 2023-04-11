@@ -1,0 +1,48 @@
+{
+  "uid" : "1758a1f074fe8d1b",
+  "name" : "Create parent organization name",
+  "fullName" : "Create parent organization name",
+  "historyId" : "Chrome tests\\admin.organization.spec.ts Create parent organization name",
+  "time" : {
+    "start" : 1652867007126,
+    "stop" : 1652867009936,
+    "duration" : 2810
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\admin.organization.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1758a1f074fe8d1b.json",
+  "parameterValues" : [ ]
+}

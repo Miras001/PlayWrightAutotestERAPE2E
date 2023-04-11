@@ -1,0 +1,46 @@
+{
+  "uid" : "533807a07436d399",
+  "name" : "Check City List on GIS Page",
+  "fullName" : "Check City List on GIS Page",
+  "historyId" : "Chrome tests\\client.gis.spec.ts Check City List on GIS Page",
+  "time" : {
+    "start" : 1652866862033,
+    "stop" : 1652866862033,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.gis.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "533807a07436d399.json",
+  "parameterValues" : [ ]
+}

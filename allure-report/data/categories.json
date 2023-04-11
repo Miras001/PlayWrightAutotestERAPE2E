@@ -1,0 +1,1009 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://client.qazvms.local/dashboard\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+      "children" : [ {
+        "name" : "User can login correct data",
+        "uid" : "4ee22c383c03a95f",
+        "parentUid" : "c3d50cba9501da8d618bd2c8aa0a55dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652866995373,
+          "stop" : 1652867003635,
+          "duration" : 8262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User can login correct data",
+        "uid" : "4d2ad0afa90a808",
+        "parentUid" : "c3d50cba9501da8d618bd2c8aa0a55dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867410427,
+          "stop" : 1652867417977,
+          "duration" : 7550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3d50cba9501da8d618bd2c8aa0a55dc"
+    }, {
+      "name" : "expect(received).toHaveText(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n-   \"Данные сохранены\",\n+   \"Организация с таким наименование существует\",\n  ]\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".notification-message\"\n  -   selector resolved to 0 elements\n  -   selector resolved to 1 element\n",
+      "children" : [ {
+        "name" : "Create parent organization",
+        "uid" : "cc8fed3a6d12dac",
+        "parentUid" : "bc5bc818c1cc94f18baa0011fa11b89f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652866998839,
+          "stop" : 1652867006488,
+          "duration" : 7649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc5bc818c1cc94f18baa0011fa11b89f"
+    }, {
+      "name" : "expect(received).toHaveText(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n-   \"Пользователь не найден\",\n+   \"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\",\n  ]\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n  -   selector resolved to 1 element\n",
+      "children" : [ {
+        "name" : "Not registered user",
+        "uid" : "7db42118b811e29f",
+        "parentUid" : "5ff947d4ae5a243c75f73300b7e0f230",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867008304,
+          "stop" : 1652867015313,
+          "duration" : 7009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ff947d4ae5a243c75f73300b7e0f230"
+    }, {
+      "name" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \".vms-camera-icon\"\n",
+      "children" : [ {
+        "name" : "Check Camera Icon",
+        "uid" : "51a52b2133c32aa9",
+        "parentUid" : "a043f2c7023f0c9a3f1ffbdb2befccaa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867045145,
+          "stop" : 1652867052542,
+          "duration" : 7397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a043f2c7023f0c9a3f1ffbdb2befccaa"
+    }, {
+      "name" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \".vms-main-icon\"\n",
+      "children" : [ {
+        "name" : "Check VMS Main Icon",
+        "uid" : "f0cac0c6f8109078",
+        "parentUid" : "4fe889c2e6c239db483cb17612d04c0d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867053112,
+          "stop" : 1652867060668,
+          "duration" : 7556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fe889c2e6c239db483cb17612d04c0d"
+    }, {
+      "name" : "expect(received).toHaveText(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n-   \"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\",\n+   \"Введите правильный e-mail\",\n  ]\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-colorError\"\n  -   selector resolved to 1 element\n",
+      "children" : [ {
+        "name" : "User can login incorrect login and password",
+        "uid" : "beeced8cc71a5ad3",
+        "parentUid" : "cb9986dff2174d6dfb3663470f3bc568",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867423032,
+          "stop" : 1652867430463,
+          "duration" : 7431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb9986dff2174d6dfb3663470f3bc568"
+    }, {
+      "name" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Ваша учетная запись удалена и не может быть использована\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "children" : [ {
+        "name" : "Delete user",
+        "uid" : "eb08d3451f980f35",
+        "parentUid" : "6a1cd0273fdb16b5427130240d23ab74",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867433723,
+          "stop" : 1652867440773,
+          "duration" : 7050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a1cd0273fdb16b5427130240d23ab74"
+    }, {
+      "name" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Ваша учетная запись заблокирована и не может быть использована, обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "children" : [ {
+        "name" : "Blocked User",
+        "uid" : "7489693d9698f26d",
+        "parentUid" : "995abe16257f39f8c85ffe154e6849d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867441321,
+          "stop" : 1652867448651,
+          "duration" : 7330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "995abe16257f39f8c85ffe154e6849d1"
+    }, {
+      "name" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://admin.qazvms.local/login\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+      "children" : [ {
+        "name" : "Email available characters",
+        "uid" : "369bf5750c500ef5",
+        "parentUid" : "35c5866910928bea72fda2cac2dd8a0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867653256,
+          "stop" : 1652867660602,
+          "duration" : 7346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35c5866910928bea72fda2cac2dd8a0f"
+    }, {
+      "name" : "expect(received).toHaveText(expected) // deep equality\n\nExpected: [\"Логин или пароль введен неверно, пожалуйста, проверьте данные или обратитесь к администратору\"]\nReceived: undefined\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".MuiTypography-displayBlock\"\n  -   selector resolved to 0 elements\n",
+      "children" : [ {
+        "name" : "Password cyrillic",
+        "uid" : "d5a0f19ce37f62ff",
+        "parentUid" : "973b3009a0ddba7b224c56c3ab00c5c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867661161,
+          "stop" : 1652867668599,
+          "duration" : 7438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Password latin",
+        "uid" : "e90fba9e15cf7d5e",
+        "parentUid" : "973b3009a0ddba7b224c56c3ab00c5c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867669155,
+          "stop" : 1652867676667,
+          "duration" : 7512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Password special symbols",
+        "uid" : "fe99078a89e3613d",
+        "parentUid" : "973b3009a0ddba7b224c56c3ab00c5c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652867677213,
+          "stop" : 1652867684830,
+          "duration" : 7617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "973b3009a0ddba7b224c56c3ab00c5c1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 40000ms exceeded.",
+      "children" : [ {
+        "name" : "Click FullScreen",
+        "uid" : "c89a9d7c15b1a4dc",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867004262,
+          "stop" : 1652867044513,
+          "duration" : 40251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create organization",
+        "uid" : "480ec447adc6b2e1",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867014655,
+          "stop" : 1652867054850,
+          "duration" : 40195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check expand tree",
+        "uid" : "7e4944ac00a2898f",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867043128,
+          "stop" : 1652867083365,
+          "duration" : 40237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create organization name",
+        "uid" : "5fa64709ee0d2672",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867055474,
+          "stop" : 1652867095622,
+          "duration" : 40148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Create Grid",
+        "uid" : "fbf4afe2ea93c92c",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867061237,
+          "stop" : 1652867101478,
+          "duration" : 40241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Search Organization by Name",
+        "uid" : "15a625d0e67824e1",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867083920,
+          "stop" : 1652867124142,
+          "duration" : 40222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create organization bin11",
+        "uid" : "1d0ecc515b709d4b",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867096193,
+          "stop" : 1652867136354,
+          "duration" : 40161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Change Camera Optimal Grid",
+        "uid" : "a033df2828f8aa34",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867102040,
+          "stop" : 1652867142309,
+          "duration" : 40269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Search Object by Name",
+        "uid" : "181f6164faee9b3f",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867124705,
+          "stop" : 1652867164945,
+          "duration" : 40240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create organization bin13",
+        "uid" : "1d031cd1f538ee9e",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867136915,
+          "stop" : 1652867177086,
+          "duration" : 40171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Change Camera Current Grid",
+        "uid" : "b3c27ff1432812ad",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867142880,
+          "stop" : 1652867183120,
+          "duration" : 40240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Search Camera by IP",
+        "uid" : "bc0b0e5a78026c7f",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867165511,
+          "stop" : 1652867205793,
+          "duration" : 40282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create object",
+        "uid" : "99518520061b1ff2",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867177650,
+          "stop" : 1652867217783,
+          "duration" : 40133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Organization by Name",
+        "uid" : "7da0db1f10bb4ad5",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867183683,
+          "stop" : 1652867223936,
+          "duration" : 40253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Search Camera by Name",
+        "uid" : "806311e6f2da2bab",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867206360,
+          "stop" : 1652867246595,
+          "duration" : 40235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create object name",
+        "uid" : "c7a0cc72f7d06d4b",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867218350,
+          "stop" : 1652867258512,
+          "duration" : 40162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Organization by bin",
+        "uid" : "71b58e704196f024",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867224500,
+          "stop" : 1652867264729,
+          "duration" : 40229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Click Clear Search Field Button",
+        "uid" : "6f84a7e54cffaa2b",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867247156,
+          "stop" : 1652867287389,
+          "duration" : 40233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create object groupe",
+        "uid" : "6c0f5c1d5dbe3ee",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867259169,
+          "stop" : 1652867299313,
+          "duration" : 40144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Object by Name",
+        "uid" : "e92958222e9b0cd2",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867265298,
+          "stop" : 1652867305556,
+          "duration" : 40258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Search Camera by Filter",
+        "uid" : "b1aee9614b969224",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867287953,
+          "stop" : 1652867328185,
+          "duration" : 40232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create camera",
+        "uid" : "4597bb1c006ae985",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867299882,
+          "stop" : 1652867340031,
+          "duration" : 40149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Object by bin",
+        "uid" : "a36f42f7e0bd6b15",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867306120,
+          "stop" : 1652867346365,
+          "duration" : 40245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Layers Button on GIS Page",
+        "uid" : "fdc8574d1091541b",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867328770,
+          "stop" : 1652867369031,
+          "duration" : 40261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create name camera",
+        "uid" : "e52cc5f82aed982e",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867340640,
+          "stop" : 1652867380776,
+          "duration" : 40136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Camera by name",
+        "uid" : "b772837cc057b568",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867346968,
+          "stop" : 1652867387200,
+          "duration" : 40232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check City List on GIS Page",
+        "uid" : "96c944eab9daf166",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867369598,
+          "stop" : 1652867409843,
+          "duration" : 40245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create model camera",
+        "uid" : "cb4feda3c64f3e27",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867381378,
+          "stop" : 1652867421529,
+          "duration" : 40151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check Camera by IP",
+        "uid" : "29648fc9d01fb3ec",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867387768,
+          "stop" : 1652867427996,
+          "duration" : 40228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create ip,port,password,login camera",
+        "uid" : "e0b62d69555e7490",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867422155,
+          "stop" : 1652867462318,
+          "duration" : 40163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check User Profile",
+        "uid" : "b85afe780eaf41af",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867428551,
+          "stop" : 1652867468796,
+          "duration" : 40245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "No value",
+        "uid" : "de492396be27c806",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867449213,
+          "stop" : 1652867489482,
+          "duration" : 40269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create server camera",
+        "uid" : "34ec78e9cd736b2c",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867462923,
+          "stop" : 1652867503056,
+          "duration" : 40133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check User Password",
+        "uid" : "871a3b8ec653805f",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867469362,
+          "stop" : 1652867509596,
+          "duration" : 40234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Cyrillic email",
+        "uid" : "509a14d81ace0315",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867490042,
+          "stop" : 1652867530307,
+          "duration" : 40265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete camera",
+        "uid" : "198918a319242a4e",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867503616,
+          "stop" : 1652867543737,
+          "duration" : 40121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check User rights and roles",
+        "uid" : "12aa4230217d7aa8",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867510154,
+          "stop" : 1652867550396,
+          "duration" : 40242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Special symbols email",
+        "uid" : "87db9749fc354550",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867530870,
+          "stop" : 1652867571109,
+          "duration" : 40239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete object",
+        "uid" : "9c15bc9127adf384",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867544299,
+          "stop" : 1652867584468,
+          "duration" : 40169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Symbols email",
+        "uid" : "222231eadfea284a",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867571666,
+          "stop" : 1652867611912,
+          "duration" : 40246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete organization",
+        "uid" : "8fd976d1932eda97",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867585041,
+          "stop" : 1652867625180,
+          "duration" : 40139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Email without domain",
+        "uid" : "af54d47c579e61d2",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867612475,
+          "stop" : 1652867652703,
+          "duration" : 40228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete parent organization",
+        "uid" : "90c800a7ac18b396",
+        "parentUid" : "702b453015be48dfcdcb38955bda93ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652867625744,
+          "stop" : 1652867665882,
+          "duration" : 40138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "702b453015be48dfcdcb38955bda93ac"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

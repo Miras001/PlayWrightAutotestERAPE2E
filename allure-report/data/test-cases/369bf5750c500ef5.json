@@ -1,0 +1,72 @@
+{
+  "uid" : "369bf5750c500ef5",
+  "name" : "Email available characters",
+  "fullName" : "Email available characters",
+  "historyId" : "Chrome tests\\client.login.spec.ts Email available characters",
+  "time" : {
+    "start" : 1652867653256,
+    "stop" : 1652867660602,
+    "duration" : 7346
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://admin.qazvms.local/login\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+  "statusTrace" : "\n    at C:\\Users\\Myskill.PC\\VMSAutotest\\tests\\client.login.spec.ts:119:22",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveURL(expected)\n\nExpected string: \"http://admin.qazvms.local/login\"\nReceived string: \"http://client.qazvms.local/login\"\nCall log:\n  - expect.toHaveURL with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n  -   selector resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"http://client.qazvms.local/login\"\n",
+    "statusTrace" : "\n    at C:\\Users\\Myskill.PC\\VMSAutotest\\tests\\client.login.spec.ts:119:22",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8267dbcccfbd4001",
+      "name" : "screenshot",
+      "source" : "8267dbcccfbd4001.png",
+      "type" : "image/png",
+      "size" : 347515
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\client.login.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "369bf5750c500ef5.json",
+  "parameterValues" : [ ]
+}
