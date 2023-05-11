@@ -7,21 +7,21 @@
     "globalTimeout": 0,
     "grep": {},
     "grepInvert": null,
-    "maxFailures": 1,
+    "maxFailures": 0,
     "metadata": {},
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/Myskill.PC/ERAPAutotest/test-results",
+        "outputDir": "D:/AutotestSD/PlayWrightAutotestERAPE2E/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "Chrome",
-        "testDir": "C:/Users/Myskill.PC/ERAPAutotest",
+        "testDir": "D:/AutotestSD/PlayWrightAutotestERAPE2E",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
         ],
-        "timeout": 0
+        "timeout": 40000
       }
     ],
     "reporter": [
@@ -36,7 +36,7 @@
         }
       ],
       [
-        "C:\\Users\\Myskill.PC\\ERAPAutotest\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        "D:\\AutotestSD\\PlayWrightAutotestERAPE2E\\node_modules\\experimental-allure-playwright\\dist\\index.js",
         null
       ]
     ],
@@ -44,21 +44,21 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "C:/Users/Myskill.PC/ERAPAutotest",
+    "rootDir": "D:/AutotestSD/PlayWrightAutotestERAPE2E",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
     "version": "1.22.1",
-    "workers": 1,
+    "workers": 2,
     "webServer": null,
-    "_globalOutputDir": "C:\\Users\\Myskill.PC\\ERAPAutotest",
-    "_configDir": "C:\\Users\\Myskill.PC\\ERAPAutotest",
+    "_globalOutputDir": "D:\\AutotestSD\\PlayWrightAutotestERAPE2E",
+    "_configDir": "D:\\AutotestSD\\PlayWrightAutotestERAPE2E",
     "_testGroupsCount": 1
   },
   "suites": [
     {
-      "title": "tests\\auth.spec.ts",
-      "file": "tests/auth.spec.ts",
+      "title": "tests\\E2E\\auth.spec.ts",
+      "file": "tests/E2E/auth.spec.ts",
       "line": 0,
       "column": 0,
       "specs": [
@@ -76,55 +76,33 @@
                 {
                   "workerIndex": 0,
                   "status": "failed",
-                  "duration": 826150,
+                  "duration": 3342,
                   "error": {
-                    "message": "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"text=OK\"\n============================================================",
-                    "stack": "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"text=OK\"\n============================================================\n    at LoginPage.authLogin (C:\\Users\\Myskill.PC\\ERAPAutotest\\pages\\login-page.ts:24:44)\n    at C:\\Users\\Myskill.PC\\ERAPAutotest\\tests\\auth.spec.ts:19:5"
+                    "message": "page.goto: net::ERR_CONNECTION_REFUSED at http://10.240.18.15/#/login\n=========================== logs ===========================\nnavigating to \"http://10.240.18.15/#/login\", waiting until \"load\"\n============================================================",
+                    "stack": "page.goto: net::ERR_CONNECTION_REFUSED at http://10.240.18.15/#/login\n=========================== logs ===========================\nnavigating to \"http://10.240.18.15/#/login\", waiting until \"load\"\n============================================================\n    at HomePage.open (D:\\AutotestSD\\PlayWrightAutotestERAPE2E\\pages\\home-page.ts:14:25)\n    at D:\\AutotestSD\\PlayWrightAutotestERAPE2E\\tests\\E2E\\auth.spec.ts:13:20"
                   },
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "attachments": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\AutotestSD\\PlayWrightAutotestERAPE2E\\test-results\\tests-E2E-auth-User-auth-with-login-Chrome\\test-failed-1.png"
+                    }
+                  ],
                   "errorLocation": {
-                    "file": "C:\\Users\\Myskill.PC\\ERAPAutotest\\tests\\auth.spec.ts",
-                    "column": 5,
-                    "line": 19
+                    "file": "D:\\AutotestSD\\PlayWrightAutotestERAPE2E\\tests\\E2E\\auth.spec.ts",
+                    "column": 20,
+                    "line": 13
                   }
                 }
               ],
               "status": "unexpected"
             }
           ],
-          "file": "tests/auth.spec.ts",
-          "line": 15,
-          "column": 1
-        },
-        {
-          "title": "User auth with ECP",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 0,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Chrome",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "file": "tests/auth.spec.ts",
-          "line": 25,
+          "file": "tests/E2E/auth.spec.ts",
+          "line": 10,
           "column": 1
         }
       ]

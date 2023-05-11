@@ -1,11 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { user } from '../constants/userdata';
-import { HomePage } from '../pages/home-page';
-import { LoginPage } from '../pages/login-page';
-import {faker} from 'Faker';
-import path from 'path';
-
-
+import { user } from '../../constants/userdata';
+import { HomePage } from '../../pages/home-page';
+import { LoginPage } from '../../pages/login-page';
 
 test.beforeEach(async ({ page }) => {
   
